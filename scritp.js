@@ -1,7 +1,4 @@
-
-
-
-console.log('connected')
+// console.log('connected')
 
 
 
@@ -13,11 +10,5 @@ const api= `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=$
 
 fetch('api.json')
   .then((res) => res.json())
-  .then((data) => {
-    const output =  "<h1>HELLO WORLD</h1>"
-    // console.log(data)
-  });
-
-  fetch("data")
-
- 
+  .then(data => console.log(data))
+  
