@@ -1,4 +1,4 @@
-// console.log('connected')
+console.log('connected')
 
 
 
@@ -8,12 +8,16 @@ function get(latitude, longitude){
 const api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
 }
 
-fetch('api.json')
-  .then((res) => res.json())
-  .then(data => console.log(data))
+// fetch('api.json')
+//   .then((res) => res.json())
+//   .then(data => console.log(data))
   
 
   // fetch('https://jsonplaceholder.typicode.com/todos/1')
   // .then(response => response.json())
   // .then(json => console.log(json))
   
+
+const age = 16;
+const  isOldEnough = age >= 18;
+console.log(isOldEnough)
