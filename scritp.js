@@ -1,4 +1,4 @@
-console.log('connected')
+// console.log('connected')
 
 
 
@@ -18,19 +18,19 @@ const api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=
   // .then(json => console.log(json))
   
 
-// const age = 16;
-// const  isOldEnough = age >= 18;
-// console.log(isOldEnough)
+const age = 16;
+const  isOldEnough = age >= 18;
+console.log(isOldEnough)
 
-// const inputYear = "1991"
-// console.log (Number(inputYear) + 18)
+const inputYear = "1991"
+console.log (Number(inputYear) + 18)
 
-// const money = 100;
-// if(money){
-//   console.log("Don't spend it all")
-// }else{
-//   console.log("Go get  JOB")
-// }
+const money = 100;
+if(money){
+  console.log("Don't spend it all")
+}else{
+  console.log("Go get  JOB")
+}
 
 const favourite = Number(prompt("Whats your favourite number?"));
 console.log(favourite)
@@ -59,3 +59,15 @@ if(favourite === 23){
 // // }else{
 // //   console.log('None')
 // // }
+
+const dolphinsScore = (98 + 108 + 100) /3
+const koalasScore = (88 + 91+ 110)/3;
+console.log(dolphinsScore,koalasScore);
+
+if(dolphinsScore > koalasScore && dolphinsScore >= 100){
+  console.log("dolphins win the trophy")
+} else if(koalasScore > dolphinsScore && koalasScore >= 100){
+  console.log('Koalas win the trophy')
+}else if(dolphinsScore === koalasScore){
+  console.log("Its a tie")       
+}
