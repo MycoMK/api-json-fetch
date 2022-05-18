@@ -1,4 +1,4 @@
-// console.log('connected')
+console.log('connected')
 
 
 
@@ -70,4 +70,34 @@ if(dolphinsScore > koalasScore && dolphinsScore >= 100){
   console.log('Koalas win the trophy')
 }else if(dolphinsScore === koalasScore){
   console.log("Its a tie")       
+}else{
+  console.log('No one wins');
 }
+
+const day = 'Sunday'
+switch(day){
+  case 'Monday':
+  console.log(" Going to work");
+  break;
+  case 'Tuesday':
+  console.log(" Go to Code meetUp");
+  case 'Wednesday':
+  console.log(" Going to work");
+  break;
+  case 'Thursday':
+  console.log(" Meeting with team");
+  console.log(" Going to work");
+  break;
+  case 'Friday':
+  console.log(" Fly to NY");
+  console.log(" Meeting with brands");
+  break;
+  case 'Saturday':
+    console.log(" Enjoy the weekend");
+  case 'Sunday':
+    console.log(" Go to Chruch");
+    break;
+    default:
+      console.log("Not a valid day")
+}
+
