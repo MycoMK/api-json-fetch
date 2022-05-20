@@ -18,8 +18,8 @@ const api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=
   // .then(json => console.log(json))
   
 
-const age = 16;
-const  isOldEnough = age >= 18;
+const myAge = 16;
+const  isOldEnough = myAge >= 18;
 console.log(isOldEnough)
 
 const inputYear = "1991"
@@ -74,15 +74,15 @@ if(dolphinsScore > koalasScore && dolphinsScore >= 100){
   console.log('No one wins');
 }
 
-const day = 'Sunday'
-switch(day){
+const today = 'Sunday'
+switch(today){
   case 'Monday':
   console.log(" Going to work");
   break;
   case 'Tuesday':
   console.log(" Go to Code meetUp");
   case 'Wednesday':
-  console.log(" Going to work");
+  console.log(" Going to the gym");
   break;
   case 'Thursday':
   console.log(" Meeting with team");
@@ -100,22 +100,25 @@ switch(day){
     default:
       console.log("Not a valid day")
 }
-
-const today = ('Monday');
-if today = ('Monday'){
+ 
+const day = ('Thursday')
+if(day === 'Monday'){
   console.log('Going to work')
-}else if('Tuesday'){
-  console.log('Fly to Ny')
-}else if('Wednesday'){
-  console.log('Meeting with Team')
-}else if('Thursday'){
-  console.log('Meeting with Brands')
-}else if('Friday'){
-  console.log('Fly to LA')
-}else if('Saturday'){
-  console.log('Fly to LA and enjoy the weekend')
-}else if('Sunday'){
-    console.log('Go to church')
+} else if( day === 'Tuesday'){
+  console.log('Going to code meeting')
+} else if(day === 'Wednesday'){
+  console.log(' Going to the gym')
+}else if(day === 'Thursday'|| day === 'Friday' ){
+  console.log('flying to NY')
+}else if(day === 'Saturday' || day === 'Sunday'){
+  console.log('Enjot the weekend')
 }else{
-  console.log(' No applicable')
+  console.log('not applicable')
 }
+
+
+// THE CONDITIONAL OPERATOR
+const age = 15;
+age >= 18? 
+console.log('I like ti drink wine'):
+console.log('Ilike to drimk water');
