@@ -1,4 +1,4 @@
-console.log('connected')
+// console.log('connected')
 
 
 
@@ -101,3 +101,21 @@ switch(day){
       console.log("Not a valid day")
 }
 
+const today = ('Monday');
+if today = ('Monday'){
+  console.log('Going to work')
+}else if('Tuesday'){
+  console.log('Fly to Ny')
+}else if('Wednesday'){
+  console.log('Meeting with Team')
+}else if('Thursday'){
+  console.log('Meeting with Brands')
+}else if('Friday'){
+  console.log('Fly to LA')
+}else if('Saturday'){
+  console.log('Fly to LA and enjoy the weekend')
+}else if('Sunday'){
+    console.log('Go to church')
+}else{
+  console.log(' No applicable')
+}
