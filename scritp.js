@@ -1,3 +1,4 @@
+// 'use strict'
 // console.log('connected')
 
 
@@ -121,4 +122,28 @@ if(day === 'Monday'){
 const age = 15;
 age >= 18? 
 console.log('I like ti drink wine'):
-console.log('Ilike to drimk water');
+console.log('Ilike to drink water');
+
+
+// 'use strick';
+
+// Functions in js
+// fuction declation
+function calcAge1(birthYear){
+  return 2037 - birthYear
+}
+ const age1 =calcAge1 (1991)
+ console.log(age1)
+
+//  fuction Expression
+
+const calcAge2 = function(birthYear){
+  return 2037 - birthYear
+}
+const age2 = calcAge2(1991)
+console.log(age2)
+
+// Arrow Fuctions
+const calcAge3 = birthYear => 2037- birthYear
+const age3 = calcAge3(1991)
+console.log(age3);
