@@ -1,4 +1,4 @@
-// 'use strict'
+'use strict'
 // console.log('connected')
 
 
@@ -148,3 +148,10 @@ const calcAge3 = birthYear => 2037- birthYear
 const age3 = calcAge3(1991)
 console.log(age3);
 
+// Array
+const friends = ['Michael','Steven','Peter']
+friends.push('Jay')
+friends.unshift('John')
+friends.indexOf('Seven')
+console.log(friends);
+console.log(friends[2])
