@@ -1,4 +1,4 @@
-'use strict'
+// 'use strict'
 // console.log('connected')
 
 
@@ -155,3 +155,20 @@ friends.unshift('John')
 friends.indexOf('Seven')
 console.log(friends);
 console.log(friends[2])
+
+
+{/* <objects */}
+ const jones = {
+   firstName: 'Jonas',
+   lastName: 'Schemdtman',
+   age:2037 - 1991,
+   job:'Teacher',
+   friends:['Michael', 'Peter','Steven']
+ };
+
+ console.log(jones)
+ console.log(jones.lastName)
+ console.log(jones['lastName'])
+
+ const interestedIn = prompt('what do you want to know')
+ console.log(jones[friends]);
