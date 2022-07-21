@@ -182,3 +182,22 @@ fetchPromise.then( response => {
     console.log(data[0].name);
   });
 });
+
+
+
+const todays = ('Sunday')
+  if(todays === 'Monday'){
+    console.log('Going to code class')
+  }else if (todays === 'Tuesday'){
+    console.log('going to code class')
+  }else if(todays === 'Wednesday'){
+    console.log('Work out')
+  }
+  
+
+// const day = ('Thursday')
+//  if(day === 'Monday'){
+// console.log('Going to work')
+// } else if( day === 'Tuesday'){
+//  console.log('Going to code meeting')
+// }
