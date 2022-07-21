@@ -172,3 +172,13 @@ console.log(friends[2])
 
  const interestedIn = prompt('what do you want to know')
  console.log(jones[friends]);
+
+
+ const fetchPromise = fetch('https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json');
+
+fetchPromise.then( response => {
+  const jsonPromise = response.json();
+  jsonPromise.then( data => {
+    console.log(data[0].name);
+  });
+});
