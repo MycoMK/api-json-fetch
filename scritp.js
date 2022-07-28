@@ -61,6 +61,8 @@ if(favourite === 23){
 // //   console.log('None')
 // // }
 
+
+
 const dolphinsScore = (98 + 108 + 100) /3
 const koalasScore = (88 + 91+ 110)/3;
 console.log(dolphinsScore,koalasScore);
